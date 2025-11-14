@@ -1,1 +1,2 @@
 scapy
+scapy-gptp==0.3.0

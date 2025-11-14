@@ -15,11 +15,8 @@ from datetime import datetime
 from threading import Lock, Thread
 
 from scapy.all import sniff
-from scapy.contrib.ptp import PTP
+from gptp.layers import PTPv2
 from scapy.packet import Packet
-
-# Load PTP extension for Scapy
-PTPv2 = PTP
 
 # --- Constants ---
 PTP_EVENT_PORT = 319
